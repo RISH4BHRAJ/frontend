@@ -1,0 +1,246 @@
+/* Global styles for your entire application */
+/* Note: Careful when making changes as they may affect every page */
+
+/* Base styles */
+.App {
+  text-align: center;
+  background-color: #e0f7fa; /* Light cyan background */
+  min-height: 100vh;
+  font-family: Arial, sans-serif; /* Example font family */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Typography */
+.welcomeScreen {
+  font-size: 4rem; /* Larger font size */
+  margin-top: 2rem;
+}
+
+.homeMsg {
+  font-size: 2.5rem; /* Slightly smaller font size */
+}
+
+.quote {
+  font-size: 1.5rem; /* Adjusted font size for quotes */
+}
+
+/* Buttons and interactive elements */
+.paymentButton,
+.TableGenButton,
+.start-reservation,
+.btn-work,
+.btn-work-reg {
+  width: 225px;
+  height: 55px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0 1rem;
+  margin: 1rem auto; /* Improved spacing */
+  line-height: 50px;
+  text-align: center;
+  background-color: #00796b; /* Teal button color */
+  color: white; /* Text color */
+  font-weight: bold; /* Bold text */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.paymentButton:hover,
+.TableGenButton:hover,
+.start-reservation:hover,
+.btn-work:hover,
+.btn-work-reg:hover {
+  background-color: #004d40; /* Darker teal shade on hover */
+}
+
+/* Section specific styles */
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userCredentialsReserve {
+  margin-left: -50px;
+  text-align: left;
+}
+
+.info1 {
+  background-color: #80deea; /* Light teal background */
+  border: 5px solid white;
+  border-radius: 28px;
+  padding: 2rem; /* Increased padding for better spacing */
+  color: #004d40; /* Dark teal text color */
+  width: max-content;
+  margin: auto;
+}
+
+.tableListText {
+  text-align: center;
+}
+
+.date-input-box {
+  width: 260px;
+  height: 55px;
+  border-radius: 24px;
+  display: flex;
+  overflow: visible;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+
+.commentBox {
+  position: relative;
+  width: 225px;
+  height: 55px;
+  border-radius: 24px;
+  display: flex;
+  overflow: visible;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.loginRegisterCentered {
+  background-color: #80deea; /* Light teal background */
+  margin: auto;
+  border: 5px solid white;
+  border-radius: 28px;
+  padding: 2rem; /* Increased padding for better spacing */
+  color: #004d40; /* Dark teal text color */
+  text-align: center;
+  width: max-content;
+  margin-top: 10%;
+}
+
+/* Navigation bar */
+.nav {
+  background-color: #80deea; /* Light teal background */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem; /* Padding adjustment for better alignment */
+}
+
+.site-title {
+  font-size: 2.5rem; /* Adjusted font size */
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav a:hover {
+  background-color: #00796b; /* Darker teal shade on hover */
+}
+
+/* Base styles */
+.App {
+  text-align: center;
+  background-color: #e0f7fa; /* Light cyan background */
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #004d40;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #00796b;
+  font-weight: bold;
+}
+
+input[type="text"],
+select {
+  width: calc(100% - 1rem);
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #b0bec5;
+  border-radius: 4px;
+}
+
+input[type="checkbox"] {
+  margin-left: 0.5rem;
+}
+
+.inp-text-input-submit-payment {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.inp-text-input-submit-payment:hover {
+  background-color: #004d40;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  form {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  input[type="text"],
+  select {
+    width: calc(100% - 0.5rem);
+  }
+}
+
+
