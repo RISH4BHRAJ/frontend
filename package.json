@@ -32,7 +32,7 @@
     "eject": "react-scripts eject",
     "test": "react-scripts test --env=jsdom"
   },
-  "proxy": "https://backend-mu-kohl.vercel.app",
+  "proxy": "https://backend11-ak04.onrender.com",
   "eslintConfig": {
     "extends": [
       "react-app",
